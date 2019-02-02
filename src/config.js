@@ -258,12 +258,12 @@ export default {
   betaMode: false,
 
   firebaseKeys: {
-    'apiKey': 'AIzaSyA972opm3TYYozj7AZyO8aecV9mWx03h_k',
-    'authDomain': 'abcd-braindr.firebaseapp.com',
-    'databaseURL': 'https://abcd-braindr.firebaseio.com',
-    'projectId': 'abcd-braindr',
-    'storageBucket': 'abcd-braindr.appspot.com',
-    'messagingSenderId': '599251466414'
+    apiKey: 'AIzaSyA972opm3TYYozj7AZyO8aecV9mWx03h_k',
+    authDomain: 'abcd-braindr.firebaseapp.com',
+    databaseURL: 'https://abcd-braindr.firebaseio.com',
+    projectId: 'abcd-braindr',
+    storageBucket: 'abcd-braindr.appspot.com',
+    messagingSenderId: '599251466414',
   },
 
   app: {
