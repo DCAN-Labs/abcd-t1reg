@@ -17,4 +17,4 @@ script:
   - npm run unit
   - npm run build
 after_script:
-  - ./deploy.sh
+  - bash ./deploy.sh
