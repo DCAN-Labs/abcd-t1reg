@@ -15,6 +15,6 @@ before_script:
 script:
   - ./node_modules/.bin/firebase-server -p 5000 -f test/testDB.json &
   - npm run unit
-  - npm run dev
+  - npm run build
 after_script:
   - ./deploy.sh
