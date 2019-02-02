@@ -372,6 +372,8 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    background-color: #142e38;
+    color: white;
     /*color: #2c3e50;*/
   }
 

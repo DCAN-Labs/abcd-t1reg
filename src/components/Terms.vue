@@ -4,6 +4,9 @@
   </div>
 </template>
 <style>
+  #terms {
+    color: black;
+  }
 </style>
 <script>
 /**

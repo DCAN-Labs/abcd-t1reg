@@ -89,6 +89,11 @@
 #signup {
   min-height: 100vh;
 }
+
+#consentform {
+  color: black;
+}
+
 </style>
 <script>
 /**

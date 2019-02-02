@@ -6,12 +6,12 @@ export default {
     // each time the app is run, it will check this manifest and update the firebase database
     // if new entries are there, they will be added, and entries that aren't in the manifest
     // but are in the firebase database will be *removed*
-  manifestUrl: 'https://raw.githubusercontent.com/SwipesForScience/exampleConfig/master/bsHbnManifest.json',
+  manifestUrl: 'https://raw.githubusercontent.com/DCAN-Labs/SwipesForScience/master/config/manifest.json',
   manifestType: 'json',
   widgetType: 'ImageSwipe',
   widgetProperties: {
-    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/akeshavan-mindcontrol/hbnSplat/{0}/tiles/base_{1}.png',
-    delimiter: '__',
+    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-qc-training/atlas_t1/{0}_atlas_in_t1.gif',
+    delimiter: '%',
     leftSwipeLabel: 'Fail',
     rightSwipeLabel: 'Pass',
   },
@@ -257,14 +257,13 @@ export default {
     // this shows a 'beta' ribbon in the bottom right corner
   betaMode: false,
 
-    // this comes from your firebase console
   firebaseKeys: {
-    apiKey: 'AIzaSyBLr1HyCf7tXGwnppkfjlIb6I0XSkJgybY',
-    authDomain: 'swipesforsciencedev1.firebaseapp.com',
-    databaseURL: 'https://swipesforsciencedev1.firebaseio.com',
-    projectId: 'swipesforsciencedev1',
-    storageBucket: 'swipesforsciencedev1.appspot.com',
-    messagingSenderId: '380364880642',
+    "apiKey": "AIzaSyA972opm3TYYozj7AZyO8aecV9mWx03h_k",
+    "authDomain": "abcd-braindr.firebaseapp.com",
+    "databaseURL": "https://abcd-braindr.firebaseio.com",
+    "projectId": "abcd-braindr",
+    "storageBucket": "abcd-braindr.appspot.com",
+    "messagingSenderId": "599251466414"
   },
 
   app: {
@@ -274,10 +273,10 @@ export default {
     // Homepage configuration
     // your app's title and tagline
   home: {
-    title: 'Swipes for Science',
-    tagline: 'A citizen science game template',
+    title: 'ABCD HCP Braindr',
+    tagline: 'Quality control for T1 weighted images',
       // background image on Homepage
-    backgroundUrl: 'https://raw.githubusercontent.com/SwipesForScience/testConfig/master/images/SwipesForScience.svg?sanitize=true',
+    backgroundUrl: 'http://www.kurzweilai.net/images/brain-network.png',
   },
 
     // Play configuration
