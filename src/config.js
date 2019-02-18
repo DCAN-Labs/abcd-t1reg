@@ -6,11 +6,11 @@ export default {
     // each time the app is run, it will check this manifest and update the firebase database
     // if new entries are there, they will be added, and entries that aren't in the manifest
     // but are in the firebase database will be *removed*
-  manifestUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/manifest.json',
+  manifestUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/manifest.json',
   manifestType: 'json',
   widgetType: 'ImageSwipe',
   widgetProperties: {
-    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-braindr/abcd-surf/{0}',
+    baseUrlTemplate: 'https://s3-us-west-2.amazonaws.com/abcd-braindr/abcd-t1reg/{0}',
     delimiter: '%',
     leftSwipeLabel: 'Fail',
     rightSwipeLabel: 'Pass',
@@ -258,12 +258,12 @@ export default {
   betaMode: false,
 
   firebaseKeys: {
-    apiKey: 'AIzaSyA9aYythZnbzbPDil6HYSk2lx80kMctnXc',
-    authDomain: 'abcd-surf.firebaseapp.com',
-    databaseURL: 'https://abcd-surf.firebaseio.com',
-    projectId: 'abcd-surf',
-    storageBucket: 'abcd-surf.appspot.com',
-    messagingSenderId: '449971967589'
+    apiKey: 'AIzaSyBHfeBs4icV32AJ_olCT5YfcDUGLraN_Hc',
+    authDomain: 'abcd-t1reg.firebaseapp.com',
+    databaseURL: 'https://abcd-t1reg.firebaseio.com',
+    projectId: 'abcd-t1reg',
+    storageBucket: 'abcd-t1reg.appspot.com',
+    messagingSenderId: '881072200975'
   },
 
   app: {
@@ -273,8 +273,8 @@ export default {
     // Homepage configuration
     // your app's title and tagline
   home: {
-    title: 'ABCD HCP Surface Swipes For Science',
-    tagline: 'Quality control of ABCD Study surface delineations',
+    title: 'ABCD HCP Anatomical Swipes For Science',
+    tagline: 'Quality control of ABCD Study anatomical image registrations',
       // background image on Homepage
     backgroundUrl: 'http://www.kurzweilai.net/images/brain-network.png',
   },
