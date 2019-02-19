@@ -273,7 +273,7 @@ export default {
     // Homepage configuration
     // your app's title and tagline
   home: {
-    title: 'ABCD HCP Anatomical Swipes For Science',
+    title: 'ABCD Anatomical Swipes For Science',
     tagline: 'Quality control of ABCD Study anatomical image registrations',
       // background image on Homepage
     backgroundUrl: 'http://www.kurzweilai.net/images/brain-network.png',
