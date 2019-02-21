@@ -307,13 +307,17 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'here is an example tutorial step',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Humpback_whales_in_singing_position.jpg',
+          text: 'In MRI studies, structural images are registered to a common atlas template. In the ABCD study, the structural image used is a T1-weighted image, which is shown below',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/1_T1w_axial_slice.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'here is another one.',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Hydrophone_being_lowered_into_the_Atlantic.jpg',
+          text: 'In the ABCD study, each participants T1-weighted image is registered to the Montreal Neurological Institute (MNI) atlas in order to compare subjects with different brain shapes',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2_Atlas_registration.jpg',
+        },{
+            // use \n to linebreak the text
+          text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1w and MNI atlas overlaid onto eachother',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/3_atlas_T1_overlay.jpg',
         },
       ],
       examples: [
