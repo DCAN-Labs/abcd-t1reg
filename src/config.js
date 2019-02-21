@@ -324,7 +324,7 @@ export default {
         {
             // fill these with examples with respect to the widget you're using
           text: 'swipe right when the image is good quality',
-          pointer: 'sub-NDARYX806FL1__cor_184',
+          pointer: 'NDARINV04CLBZAD_baselineYear1Arm1_atlas_in_t1',
           answer: 1,
           tutorialStep: 0,
         },
