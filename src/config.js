@@ -307,12 +307,12 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'In the ABCD study, the structural image of the brain is the T1-weighted image. This image is a clear snapshot of the brain at one time-point and is used to measure physically characteristics like shape.',
+          text: 'In the ABCD Study, the structural image of the brain is the T1-weighted image (T1). This image is a clear snapshot of the brain at one time-point and is used to measure physical characteristics like shape.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas_justimg.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'Each ABCD participants’ T1-weighted image is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects’ with different brain shapes.',
+          text: 'Each ABCD Study participants’ T1 is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects’ with different brain shapes.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/mni_final.jpg',
         },
         {
@@ -322,47 +322,47 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas. \n The goal is to have all subjects’ overlaid images look the same so all the structural images perfectly align to the atlas boundaries.',
+          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas.\nThe goal is to have all subjects’ overlaid images look the same so all the structural images perfectly align to the atlas boundaries.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary_screenshot.jpg',
         },
         {
             // use \n to linebreak the text
+          text: 'Here the T1 poorly registers to the MNI atlas by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped.  This is a FAIL.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail_screenshot.JPG',
-          text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
 
         },
         {
             // use \n to linebreak the text
-          text: 'The highlighted frontal region is minimally inside the boundaries of the atlas, but the T1 maintains the overall shape of the atlas',
+          text: 'Here the green-circled frontal region is minimally inside the boundaries of the MNI atlas, but the T1 maintains the overall shape of the MNI atlas. This is a PASS',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'T1 poorly registers to MNI by extending outside of the atlas boundaries on the top of the brain',
+          text: 'Here the T1 poorly registers to the MNI atlas by extending outside of the atlas boundaries on the top of the brain, circled in red. This is a FAIL',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail2_screenshot.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'The highlighted top region minimally protrudes outside of the atlas boundary, but the T1 maintains the overall shape of the atlas',
+          text: 'Here the highlighted top (superior) region minimally protrudes outside of the MNI atlas boundary, but the T1 maintains the overall shape of the atlas so this is a PASS.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass2_screenshot.JPG',
         },
       ],
       examples: [
         {
             // fill these with examples with respect to the widget you're using
-          text: 'swipe right when the image is good quality',
+          text: 'Swipe right when the image is good quality',
           pointer: 'NDARINV04CLBZAD_baselineYear1Arm1_atlas_in_t1',
           answer: 1,
           tutorialStep: 0,
         },
         {
-          text: 'swipe left when its bad',
+          text: 'Swipe left when it's bad',
           pointer: 'NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas',
           answer: 0,
           tutorialStep: 1,
         },
         {
-          text: `if you're not sure, click 'help' \n to discuss with scientists ${''}`,
+          text: `If you're not sure, click 'help' \n to discuss with scientists ${''}`,
           pointer: 'NDARINVMJKP2NJJ_baselineYear1Arm1_t1_in_atlas',
           answer: 0,
           tutorialStep: 2,
