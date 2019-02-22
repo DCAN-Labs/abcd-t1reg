@@ -318,23 +318,33 @@ export default {
         {
             // use \n to linebreak the text
           text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1 and MNI atlas overlaid onto each other.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2atlaspictures.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2atlas_screenshot.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas. \n The goal is to have all subjects’ overlaid images look the same so all the structural images perfectly align to the atlas boundaries.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary_screenshot.jpg',
         },
         {
             // use \n to linebreak the text
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail_screenshot.JPG',
           text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
 
         },
         {
             // use \n to linebreak the text
-          text: 'Prefrontal region minimally inside the boundaries of the atlas, but the T1 maintains the overall shape of the atlas',
+          text: 'The highlighted frontal region is minimally inside the boundaries of the atlas, but the T1 maintains the overall shape of the atlas',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'T1 poorly registers to MNI by extending outside of the atlas boundaries on the top of the brain',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail2_screenshot.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'The highlighted top region minimally protrudes outside of the atlas boundary, but the T1 maintains the overall shape of the atlas',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass2_screenshot.JPG',
         },
       ],
       examples: [
