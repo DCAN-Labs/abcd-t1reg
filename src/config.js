@@ -327,13 +327,13 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The T1 may not align to the atlas by being inside the atlas boundaries',
+          text: 'The T1 may not align to the atlas due to not extending to the atlas boundaries',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidefail.JPG',
 
         },
         {
             // use \n to linebreak the text
-          text: 'If the T1 is inside the atlas boundaries it not always bad quality but depends on how well the T1 maintains the atlas shape',
+          text: 'However, if the T1 is minimally inside the atlas boundaries it is not necessarily bad quality',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidepass.JPG',
         },
         {
@@ -343,8 +343,8 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'If the T1 extends outside of the atlas boundaries it not always bad quality but depends on how well the T1 maintains the atlas shape',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidepass.JPG',
+          text: 'However, if the T1 minimally extends outside of the atlas boundaries it is not necessarily bad quality',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidepass.JPG',
         },
       ],
       examples: [
@@ -363,7 +363,7 @@ export default {
         },
         {
           text: `If you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'NDARINV6CG6LPAT_baselineYear1Arm1_atlas_in_t1',
+          pointer: 'old_NDARINV898CW3V8_baselineYear1Arm1_t1_in_atlas_copy1',
           answer: 0,
           tutorialStep: 2,
         },
