@@ -356,14 +356,14 @@ export default {
           tutorialStep: 0,
         },
         {
-          text: `Swipe left when it's bad`,
-          pointer: 'NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas',
+          text: `Swipe left when it's bad`,examples
+          pointer: 'old_NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas_copy1',
           answer: 0,
           tutorialStep: 1,
         },
         {
           text: `If you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'NDARINVMJKP2NJJ_baselineYear1Arm1_t1_in_atlas',
+          pointer: 'NDARINV5MFBJTBG_baselineYear1Arm1_t1_in_atlas',
           answer: 0,
           tutorialStep: 2,
         },
