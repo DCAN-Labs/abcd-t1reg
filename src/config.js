@@ -318,7 +318,7 @@ export default {
         {
             // use \n to linebreak the text
           text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1 and MNI atlas overlaid onto each other.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2atlas_screenshot.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlast1horizontal.JPG',
         },
         {
             // use \n to linebreak the text
@@ -327,24 +327,24 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Here the T1 poorly registers to the MNI atlas by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped.  This is a FAIL.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail_screenshot.JPG',
+          text: 'The T1 may not align to the atlas by being inside the atlas boundaries',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidefail.JPG',
 
         },
         {
             // use \n to linebreak the text
-          text: 'Here the green-circled frontal region is minimally inside the boundaries of the MNI atlas, but the T1 maintains the overall shape of the MNI atlas. This is a PASS',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.JPG',
+          text: 'If the T1 is inside the atlas boundaries it not always bad quality but depends on how well the T1 maintains the atlas shape',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidepass.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Here the T1 poorly registers to the MNI atlas by extending outside of the atlas boundaries on the top of the brain, circled in red. This is a FAIL',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail2_screenshot.JPG',
+          text: 'The T1 may also extend outside of the atlas boundaries',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidefail.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Here the highlighted top (superior) region minimally protrudes outside of the MNI atlas boundary, but the T1 maintains the overall shape of the atlas so this is a PASS.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass2_screenshot.JPG',
+          text: 'If the T1 extends outside of the atlas boundaries it not always bad quality but depends on how well the T1 maintains the atlas shape',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidepass.JPG',
         },
       ],
       examples: [
@@ -363,7 +363,7 @@ export default {
         },
         {
           text: `If you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'NDARINV5MFBJTBG_baselineYear1Arm1_t1_in_atlas',
+          pointer: 'NDARINV6CG6LPAT_baselineYear1Arm1_atlas_in_t1',
           answer: 0,
           tutorialStep: 2,
         },
