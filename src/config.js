@@ -327,8 +327,14 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail.jpg',
+          text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
+
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Prefrontal region minimally inside the boundaries of the atlas, but the T1 maintains the overall shape of the atlas',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.jpg',
         },
       ],
       examples: [
