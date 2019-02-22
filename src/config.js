@@ -318,14 +318,17 @@ export default {
         {
             // use \n to linebreak the text
           text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1 and MNI atlas overlaid onto each other.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2pics_screenshot.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2atlaspictures.jpg',
         },
         {
             // use \n to linebreak the text
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlasexampletext.jpg',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/badatlas.jpg',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/failtext.jpg',
+          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas. \n The goal is to have all subjects’ overlaid images look the same so all the structural images perfectly align to the atlas boundaries.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary.jpg',
+        },
+        {
+            // use \n to linebreak the text
           text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/fail.jpg',
         },
       ],
       examples: [
