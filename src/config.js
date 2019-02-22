@@ -312,7 +312,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Each ABCD Study participants’ T1 is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects’ with different brain shapes.',
+          text: 'Each ABCD Study participant’s T1 is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects with different brain shapes.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/mni_final.jpg',
         },
         {
@@ -322,7 +322,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas.\nThe goal is to have all subjects’ overlaid images look the same so all the structural images perfectly align to the atlas boundaries.',
+          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas.\nThe goal is to have all participants’ overlaid images look the same so their brain shapes are the same and can be compared',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary_screenshot.jpg',
         },
         {
@@ -343,7 +343,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'However, if the T1 minimally extends outside of the atlas boundaries it is not necessarily bad quality',
+          text: 'However, if the T1 extends minimally outside of the atlas boundaries it is not necessarily bad quality',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidepass.JPG',
         },
       ],
