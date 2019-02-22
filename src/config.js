@@ -307,8 +307,7 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'In MRI studies, structural images are registered to a common atlas template. In the ABCD study, the structural image used is a T1-weighted image, which is shown below',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/1_T1w_axial_slice.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas1.jpg',
         },
         {
             // use \n to linebreak the text
