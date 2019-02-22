@@ -356,7 +356,7 @@ export default {
           tutorialStep: 0,
         },
         {
-          text: `Swipe left when it's bad`,examples
+          text: 'Swipe left when the image is bad',
           pointer: 'old_NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas_copy1',
           answer: 0,
           tutorialStep: 1,
