@@ -357,13 +357,13 @@ export default {
         },
         {
           text: 'swipe left when its bad',
-          pointer: 'sub-NDAREG590BNY__sag_201',
+          pointer: 'NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas',
           answer: 0,
           tutorialStep: 1,
         },
         {
           text: `if you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'sub-NDAREW671HZW__ax_86',
+          pointer: 'NDARINVMJKP2NJJ_baselineYear1Arm1_t1_in_atlas',
           answer: 0,
           tutorialStep: 2,
         },
