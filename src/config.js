@@ -334,7 +334,7 @@ export default {
         {
             // use \n to linebreak the text
           text: 'Prefrontal region minimally inside the boundaries of the atlas, but the T1 maintains the overall shape of the atlas',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/pass_screenshot.JPG',
         },
       ],
       examples: [
