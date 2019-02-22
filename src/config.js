@@ -307,7 +307,8 @@ export default {
       intro: [
         {
             // keep the text really short
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas1_portrait.jpg',
+          text: 'In the ABCD study, the structural image of the brain is the T1-weighted image. This image is a clear snapshot of the brain at one time-point and is used to measure physically characteristics like shape.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas1_justimg.jpg',
         },
         {
             // use \n to linebreak the text
