@@ -313,11 +313,19 @@ export default {
         {
             // use \n to linebreak the text
           text: 'Each ABCD participants’ T1-weighted image is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects’ with different brain shapes.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/mni.jpg',
-        },{
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/mni_final.jpg',
+        },
+        {
             // use \n to linebreak the text
           text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1 and MNI atlas overlaid onto each other.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2pics.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/2pics_screenshot.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlasexampletext.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/badatlas.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/failtext.jpg',
+          text: 'T1 poorly registers to MNI by not extending to the atlas boundaries throughout the brain, which makes the entire T1 appear warped',
         },
       ],
       examples: [
