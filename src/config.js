@@ -307,7 +307,7 @@ export default {
       intro: [
         {
             // keep the text really short
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas1.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas1_portrait.jpg',
         },
         {
             // use \n to linebreak the text
