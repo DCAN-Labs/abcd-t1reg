@@ -276,7 +276,7 @@ export default {
     title: 'ABCD Anatomical Swipes For Science',
     tagline: 'Quality control of ABCD Study anatomical image registrations',
       // background image on Homepage
-    backgroundUrl: 'http://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/homepage.png',
+    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/homepage.png',
   },
 
     // Play configuration
