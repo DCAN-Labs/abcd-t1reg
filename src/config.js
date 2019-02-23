@@ -307,43 +307,43 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'In the ABCD Study, the structural image of the brain is the T1-weighted image (T1). This image is a clear snapshot of the brain at one time-point and is used to measure physical characteristics like shape.',
+          text: 'In the ABCD Study the structural image of the brain is the T1-weighted image (T1). \nThis image is a clear snapshot of the brain at one point in time and is used to measure physical characteristics like shape and size.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlas_justimg.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'Each ABCD Study participant’s T1 is registered to the Montreal Neurological Institute (MNI) atlas. The structural image is registered to a common atlas in order to compare subjects with different brain shapes.',
+          text: 'Each ABCD Study participant’s T1 is registered to the Montreal Neurological Institute (MNI) atlas. \nThe structural image is registered to a common atlas in order to compare subjects with different brain shapes.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/mni_final.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'There are 2 types of images to assess the quality of the T1 registration to the MNI atlas. These images are the T1 and MNI atlas overlaid onto each other.',
+          text: 'There are two types of images to assess the quality of the T1 registration to the MNI atlas. \nThese images are the T1 and MNI atlas overlaid onto each other.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/atlast1horizontal.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas.\nThe goal is to have all participants’ overlaid images look the same so their brain shapes are the same and can be compared',
+          text: 'The quality of the atlas registration depends on how well the T1 aligns to the boundaries of the MNI atlas.\nThe goal is to have all participants’ overlaid images look the same so their brain shapes are the same and can be compared.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/innerboundary_screenshot.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'The T1 may not align to the atlas due to not extending to the atlas boundaries',
+          text: 'The T1 may not align to the atlas due to not extending to the atlas boundaries.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidefail.JPG',
 
         },
         {
             // use \n to linebreak the text
-          text: 'However, if the T1 is minimally inside the atlas boundaries it is not necessarily bad quality',
+          text: 'However if the T1 is minimally inside the atlas boundaries it is not necessarily bad quality.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/insidepass.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'The T1 may also extend outside of the atlas boundaries',
+          text: 'The T1 may also extend outside of the atlas boundaries.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidefail.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'However, if the T1 extends minimally outside of the atlas boundaries it is not necessarily bad quality',
+          text: 'However if the T1 extends minimally outside of the atlas boundaries it is not necessarily bad quality.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidepass.JPG',
         },
       ],
@@ -356,13 +356,13 @@ export default {
           tutorialStep: 0,
         },
         {
-          text: 'Swipe left when the image is bad',
+          text: `Swipe left when it's bad`,
           pointer: 'old_NDARINV6M531U7A_baselineYear1Arm1_t1_in_atlas_copy1',
           answer: 0,
           tutorialStep: 1,
         },
         {
-          text: `If you're not sure, click 'help' \n to discuss with scientists ${''}`,
+          text: `If you're not sure, click 'help' \nto discuss with scientists ${''}`,
           pointer: 'old_NDARINV898CW3V8_baselineYear1Arm1_t1_in_atlas_copy1',
           answer: 0,
           tutorialStep: 2,
