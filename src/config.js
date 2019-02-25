@@ -346,6 +346,11 @@ export default {
           text: 'However if the T1 extends minimally outside of the atlas boundaries it is not necessarily bad quality.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-t1reg/master/config/tutorial_imgs/outsidepass.JPG',
         },
+        {
+            // use \n to linebreak the text
+          text: 'If the image has no red overlay, click the HELP button and type "no overlay". This is a problem with how the overlaid image was created, not the T1 registration.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-func/master/config/tutorial_imgs/blank_help_arrow.JPG',
+        },
       ],
       examples: [
         {
