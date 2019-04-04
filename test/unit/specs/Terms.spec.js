@@ -9,7 +9,7 @@ const Constructor = Vue.extend(Terms);
 const propsData = {};
 
 //describe('Terms.vue', () => {
-//  it('should have correct title', () => {
+// it('should have correct title', () => {
 //    const vm = new Constructor({
 //      propsData,
 //    }).$mount();
